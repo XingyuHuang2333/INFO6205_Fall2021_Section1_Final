@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LargestTreeTest {
     @Test
     public void test1(){
-        int[][] edges = {{0,1},{1,2},{3,4}};
+        int[][] edges = {{0,1},{0,2},{3,4}};
         LargestTree tree = new LargestTree();
         int V = 5;
         LinkedList<Integer> adj[] = new LinkedList[V];
